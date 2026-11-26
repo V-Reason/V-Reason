@@ -1,0 +1,201 @@
+schema_version = 1
+kit_version = "4.0.0"
+workflow_version = "v4.0"
+project_name = "V-Reason"
+profile_hash = "sha256:0ccd30c1e68c271d7ac498b37213b4708f990085ef2e2f5ca2fec2b3218c1a9e"
+layers = ["core", "generic"]
+layer_versions = ["core@4.0.0", "generic@4.0.0"]
+
+[[managed_files]]
+path = ".agents/skills/game-systems-designer/SKILL.md"
+ownership = "KIT_OWNED"
+sha256 = "sha256:5c7e83448bc4cb9dcd31b4eb8b40289d3837fe907abbfa914ec74ba152d39d72"
+layers = ["core"]
+
+[[managed_files]]
+path = ".agents/skills/planner-orchestrator/SKILL.md"
+ownership = "KIT_OWNED"
+sha256 = "sha256:4420aec4a89fd42d9010ca9b73fb6661e58ed8d1139efdf2633de170ef9f3af8"
+layers = ["core"]
+
+[[managed_files]]
+path = ".agents/skills/secretary-router/SKILL.md"
+ownership = "KIT_OWNED"
+sha256 = "sha256:770d9bd82a89aba7601b584b98f8b75640a69bd558a935f1c3876f1e5d32e6be"
+layers = ["core"]
+
+[[managed_files]]
+path = ".agents/skills/software-architect/SKILL.md"
+ownership = "KIT_OWNED"
+sha256 = "sha256:076de8f2522838be567b545fa4f0577e50e83a571ef3ccbe99a9e67b28abb36b"
+layers = ["core"]
+
+[[managed_files]]
+path = ".agents/skills/task-brief-writer/SKILL.md"
+ownership = "KIT_OWNED"
+sha256 = "sha256:d2f678642eaca97e9cc839016b598ad95179e00934af7fedd51c31eda1bc0915"
+layers = ["core"]
+
+[[managed_files]]
+path = ".agents/skills/unity2d-architect/SKILL.md"
+ownership = "KIT_OWNED"
+sha256 = "sha256:495ac92a8b044300f7205109e17eb040ca68db89aa9d4d43b19f68c54ad52ae1"
+layers = ["core"]
+
+[[managed_files]]
+path = ".agents/skills/watchdog-inspector/SKILL.md"
+ownership = "KIT_OWNED"
+sha256 = "sha256:4a5b1af16d0aade2b3f8956bcac93fae2fccd49693337c40939760120eaa40e8"
+layers = ["core"]
+
+[[managed_files]]
+path = ".agents/skills/worker-engine/SKILL.md"
+ownership = "KIT_OWNED"
+sha256 = "sha256:20ddbb81c86c48835f961759323c45ebc3c91c2bc749a1c8b5aaffc4a1ca300e"
+layers = ["core"]
+
+[[managed_files]]
+path = ".gitattributes"
+ownership = "MANAGED_BLOCK"
+sha256 = "sha256:57e4536f2fb3da4595a6598832a464db0f7fd10a7e27ed69c136816541a7eb79"
+fragment_sha256 = "sha256:8cc4722a50eb14a34228184c810989da4df9d0dbcb533359869bfffc564dffa0"
+block_id = "core:core"
+layers = ["core"]
+
+[[managed_files]]
+path = ".gitignore"
+ownership = "MANAGED_BLOCK"
+sha256 = "sha256:f0f067f4a0f7c3e5fbd7cacdda8ed18fa543e93d74cc897e371790a77f220ced"
+fragment_sha256 = "sha256:669567808e7a57deca4a899e1eb06c5644514ac24320b4c6a0abb646be7b4401"
+block_id = "core:core"
+layers = ["core"]
+
+[[managed_files]]
+path = "AGENTS.md"
+ownership = "MANAGED_BLOCK"
+sha256 = "sha256:6e44044f2481ac179be88ea6ced8529c0ff66a3afc2ecfec1ece709877cef57a"
+fragment_sha256 = "sha256:10827ad6ae376a98e2f3977af8f080a6d492772fc28193a82137b58b4d009deb"
+block_id = "core:core"
+layers = ["core"]
+
+[[managed_files]]
+path = "AI_Context/TASKS/_templates/00_CONTEXT_MANIFEST.md"
+ownership = "KIT_OWNED"
+sha256 = "sha256:198e9022e71a6b073e0b9ae8a6a591b93243c9c35106c5bd0afb3623e7fd42f2"
+layers = ["core"]
+
+[[managed_files]]
+path = "AI_Context/TASKS/_templates/ACCEPTANCE.md"
+ownership = "KIT_OWNED"
+sha256 = "sha256:c64c4cd19d1dcf00eac2faf681577c2a7d0d68bac9e55554d847c689c8a1f06e"
+layers = ["core"]
+
+[[managed_files]]
+path = "AI_Context/TASKS/_templates/APPROVAL_RECORD.md"
+ownership = "KIT_OWNED"
+sha256 = "sha256:bd1b5074c14e635e4b95fde11ef2f204438e357ad038997681e85fe032418112"
+layers = ["core"]
+
+[[managed_files]]
+path = "AI_Context/TASKS/_templates/CONTEXT_UPDATE_PROPOSAL.md"
+ownership = "KIT_OWNED"
+sha256 = "sha256:051008c462d47dec8824f88a79d5c1481017a7fc7bf731fd8eacc9c23f56996b"
+layers = ["core"]
+
+[[managed_files]]
+path = "AI_Context/TASKS/_templates/EXECUTION_REPORT_A01.md"
+ownership = "KIT_OWNED"
+sha256 = "sha256:7989e7f2a22e29b84e648e85896f1071ee733263b5456ca73ad92939d19f6968"
+layers = ["core"]
+
+[[managed_files]]
+path = "AI_Context/TASKS/_templates/PLAN_v01.md"
+ownership = "KIT_OWNED"
+sha256 = "sha256:3b1d3c1a2aef5e2bded5f85c3fffefae3519e7ecd6529c6bfc2416ae5b42b3f4"
+layers = ["core"]
+
+[[managed_files]]
+path = "AI_Context/TASKS/_templates/RECON_REPORT.md"
+ownership = "KIT_OWNED"
+sha256 = "sha256:cb3d62505fcd55862c4d4904b0dfa31f115be9c3627903db92c3e57e8dbf6079"
+layers = ["core"]
+
+[[managed_files]]
+path = "AI_Context/TASKS/_templates/TASK_BRIEF.md"
+ownership = "KIT_OWNED"
+sha256 = "sha256:25cdda23b1f7a109be792644a31b133bb81ae75cc6081fb3ec788f7453e85c7b"
+layers = ["core"]
+
+[[managed_files]]
+path = "README.md"
+ownership = "MANAGED_BLOCK"
+sha256 = "sha256:94cbd1cff4ed76018ab03403d0479cb012e965952533c9e2a3e9e45cda2ca180"
+fragment_sha256 = "sha256:3f32565a337f414bc7aaccd8d7aeeb17caae67618de35fa5bd1596ab955dffef"
+block_id = "generic:generic"
+layers = ["generic"]
+
+[[managed_files]]
+path = "scripts/stage_context.py"
+ownership = "KIT_OWNED"
+sha256 = "sha256:639d86672a7d901d4d113e8f3a7daf0fef02fe67a3f46e52fa0ea6717aae57ac"
+layers = ["core"]
+
+[[managed_files]]
+path = "scripts/validate_handover.py"
+ownership = "KIT_OWNED"
+sha256 = "sha256:4be0e5c95b668c61c9175377fd5947661498f988e29e10ca4fb0a20d3959865e"
+layers = ["core"]
+
+[[managed_files]]
+path = "scripts/workflow.py"
+ownership = "KIT_OWNED"
+sha256 = "sha256:082bbecccfbc8ebe74c2634364ac546ec794b40ce527d8110364762ad27863c1"
+layers = ["core"]
+
+[[managed_files]]
+path = "scripts/workflow_kit/__init__.py"
+ownership = "KIT_OWNED"
+sha256 = "sha256:aaafefd4310c8ebd74b86cb9a7cf512246963268c975d7bc6397f3da4d61779d"
+layers = ["core"]
+
+[[managed_files]]
+path = "scripts/workflow_kit/assembly.py"
+ownership = "KIT_OWNED"
+sha256 = "sha256:24cc7d78460e31ef43c960599c61f5350d66ad0593975d40a499478df360d280"
+layers = ["core"]
+
+[[managed_files]]
+path = "scripts/workflow_kit/cli.py"
+ownership = "KIT_OWNED"
+sha256 = "sha256:2253b47a6b7f3b6e91fc39c579968e5a00edfd0e64207cb712fff60d2e87bc50"
+layers = ["core"]
+
+[[managed_files]]
+path = "scripts/workflow_kit/errors.py"
+ownership = "KIT_OWNED"
+sha256 = "sha256:74b9cd349e90c53c5d0ab38ecca24b6ae8780243ea662b9f356e067e866dd945"
+layers = ["core"]
+
+[[managed_files]]
+path = "scripts/workflow_kit/lockfile.py"
+ownership = "KIT_OWNED"
+sha256 = "sha256:a6c28a01b664e03de8e2c93ff33d6a2a31bd9b4baeca2b63c250883f721b9182"
+layers = ["core"]
+
+[[managed_files]]
+path = "scripts/workflow_kit/merge.py"
+ownership = "KIT_OWNED"
+sha256 = "sha256:fae3554fcd08b7906236590680c3f0b982de367a35f0eb6d1da6eb0029101ac1"
+layers = ["core"]
+
+[[managed_files]]
+path = "scripts/workflow_kit/profile.py"
+ownership = "KIT_OWNED"
+sha256 = "sha256:5c7a7c1bff406d8dcdaee4fea7dcf5fb783a685dc9278464d0adc87daa7778db"
+layers = ["core"]
+
+[[managed_files]]
+path = "scripts/workflow_kit/status.py"
+ownership = "KIT_OWNED"
+sha256 = "sha256:a1028d8b02edaccd66eb48c309a2425ae90bdf4366770b18134205d12c82bb56"
+layers = ["core"]
