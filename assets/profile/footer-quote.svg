@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 96" width="480" height="96" role="img" aria-label="画面让玩家心动，音乐让玩家沉浸，玩法让玩家留下，剧情让玩家记住。—— V-Reason / 愚人舟">
+  <defs>
+    <filter id="navy-glow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.3" result="blur" />
+      <feFlood flood-color="#2f7dff" flood-opacity="0.55" result="glow-color" />
+      <feComposite in="glow-color" in2="blur" operator="in" result="glow" />
+      <feMerge>
+        <feMergeNode in="glow" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <style>
+    .frame { fill: none; stroke: #3f4145; stroke-width: 2; }
+    .rule { stroke: #d0b185; stroke-width: 1; opacity: 0.7; }
+    .pip-l { fill: #85c6c8; }
+    .pip-r { fill: #da684c; }
+    .quote {
+      font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", -apple-system, BlinkMacSystemFont, sans-serif;
+      font-size: 13.5px;
+      font-style: italic;
+      letter-spacing: 0.8px;
+      fill: #133e5e;
+      text-anchor: middle;
+      filter: url(#navy-glow);
+    }
+    .author {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.6px;
+      fill: #343433;
+      text-anchor: middle;
+    }
+    @media (prefers-color-scheme: dark) {
+      .frame { stroke: #66696f; }
+      .rule { stroke: #595a58; opacity: 0.85; }
+      .quote { fill: #6fb7d3; }
+      .author { fill: #f7f0e7; }
+    }
+  </style>
+  <rect class="frame" x="1" y="1" width="478" height="94" rx="20" />
+  <line class="rule" x1="120" y1="10" x2="226" y2="10" />
+  <rect class="pip-l" x="234" y="8" width="4" height="4" rx="1" />
+  <rect class="pip-r" x="242" y="8" width="4" height="4" rx="1" />
+  <line class="rule" x1="254" y1="10" x2="360" y2="10" />
+  <text class="quote" x="240" y="38">画面让玩家心动，音乐让玩家沉浸，</text>
+  <text class="quote" x="240" y="60">玩法让玩家留下，剧情让玩家记住。</text>
+  <text class="author" x="240" y="85">—— V-Reason / 愚人舟</text>
+</svg>

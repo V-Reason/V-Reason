@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 34" width="490" height="34" role="img" aria-label="浮力物理控制 · 钩爪铁链交互 · 状态机管理 · 2D 玩法手感">
+  <style>
+    .tag { fill: #f7f0e7; stroke: #c8dcd9; stroke-width: 1; }
+    .tick { fill: #69a7aa; }
+    .label {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      font-size: 11.5px;
+      font-weight: 500;
+      fill: #343433;
+      text-anchor: middle;
+      dominant-baseline: central;
+    }
+    @media (prefers-color-scheme: dark) {
+      .tag { fill: #2c2b29; stroke: #464645; }
+      .tick { fill: #85c6c8; }
+      .label { fill: #f7f0e7; }
+    }
+  </style>
+  <rect class="tag" x="14" y="4" width="108" height="26" rx="4" />
+  <rect class="tick" x="20" y="11" width="2.5" height="12" rx="1" />
+  <text class="label" x="71" y="17">浮力物理控制</text>
+
+  <rect class="tag" x="132" y="4" width="108" height="26" rx="4" />
+  <rect class="tick" x="138" y="11" width="2.5" height="12" rx="1" />
+  <text class="label" x="189" y="17">钩爪铁链交互</text>
+
+  <rect class="tag" x="250" y="4" width="96" height="26" rx="4" />
+  <rect class="tick" x="256" y="11" width="2.5" height="12" rx="1" />
+  <text class="label" x="301" y="17">状态机管理</text>
+
+  <rect class="tag" x="356" y="4" width="120" height="26" rx="4" />
+  <rect class="tick" x="362" y="11" width="2.5" height="12" rx="1" />
+  <text class="label" x="419" y="17">2D 玩法手感</text>
+</svg>

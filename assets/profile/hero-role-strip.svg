@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 36" width="360" height="36" role="img" aria-label="Unity 游戏程序 · TA 技术美术">
+  <style>
+    .box { fill: #f7f0e7; stroke: #d0b185; stroke-width: 1; }
+    .pip-l { fill: #85c6c8; }
+    .pip-r { fill: #da684c; }
+    .txt {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.8px;
+      fill: #343433;
+      text-anchor: middle;
+      dominant-baseline: central;
+    }
+    .sep { fill: #5f5a52; }
+    @media (prefers-color-scheme: dark) {
+      .box { fill: #2c2b29; stroke: #595a58; }
+      .txt { fill: #f7f0e7; }
+      .sep { fill: #d0b185; }
+    }
+  </style>
+  <rect class="box" x="20" y="3" width="320" height="30" rx="4" />
+  <rect class="pip-l" x="30" y="11" width="3" height="14" rx="1.5" />
+  <rect class="pip-r" x="327" y="11" width="3" height="14" rx="1.5" />
+  <text class="txt" x="180" y="18">Unity 游戏程序<tspan class="sep">  ·  </tspan>TA 技术美术</text>
+</svg>

@@ -1,9 +1,0 @@
-schema_version = 1
-workflow_version = "v4.0"
-name = "V-Reason"
-layers = ["core", "generic"]
-
-[parameters]
-project_name = "V-Reason"
-project_slug = "v-reason"
-python_package = "v_reason"
